@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="output.css">
     <script src="https://cdn.tailwindcss.com"></script>
-    
     <style>
         .scrollbar::-webkit-scrollbar{
             width: 0;
@@ -15,118 +14,107 @@
     </style>
 </head>
 <body>
-    <div class="w-100 bg-lime-00 m-auto">
-        <!--Navbar start-->
-        <div class="h-12 flex justify-between mt-2">
-            <div class="flex">
-                <div class="h-full w-12 rounded-xl bg-orange-400"></div>
-                <div class="h- full w-32 pl-2">
-                    <p class="text-gray-700 text-md">Hello Abhi</p>
-                    <p class="font-bold">Good Morning!</p>
+    <div class="w-full bg-lime-00"><!--Main div start-->
+        <div class="fixed w-full h-30"><!--Nav bar start-->
+            <div class="h-28 px-2 bg-white"><!--padding use left and right-->
+                <div class="h-12 flex justify-between"><!--First Part Start-->
+                    <div class="flex">
+                        <div class="h-full w-12 rounded-xl bg-orange-400"></div>
+                        <div class="h- full w-32 pl-2">
+                            <p class="text-gray-700 text-md">Hello Abhi</p>
+                            <p class="font-bold">Good Morning!</p>
+                        </div>
+                    </div>
+                    <div class="flex justify-between w-28">
+                        <div class="h-full w-12 rounded-xl bg-gray-200 text-center pt-2">
+                            <i class="fa-regular fa-bell text-2xl"></i>
+                        </div>
+                        <div class="h-full w-12 rounded-xl bg-gray-200 text-center pt-2">
+                            <i class="fa-solid fa-cart-shopping text-2xl"></i>
+                        </div>
+                    </div>
+                </div><!--First Part End-->
+                <div class="h-10 mt-3 flex justify-between">
+                    <div class="w-[85%] bg-gray-200 rounded-xl pl-3">
+                        <i class="fa-solid fa-magnifying-glass text-gray-400"></i>
+                        <input class="h-full w-70 outline-none" type="search" placeholder="Search..">
+                    </div>
+                    <div class="w-12 bg-gray-200 rounded-xl text-center pt-2">
+                        <i class="fa-solid fa-sliders"></i>
+                    </div>
                 </div>
             </div>
-            <div class="flex justify-between w-28">
-                <div class="h-full w-12 rounded-xl bg-gray-200 text-center pt-2">
-                    <i class="fa-regular fa-bell text-2xl"></i>
-                </div>
-                <div class="h-full w-12 rounded-xl bg-gray-200 text-center pt-2">
-                    <i class="fa-solid fa-cart-shopping text-2xl"></i>
-                </div>
-            </div>
-        </div>
-        <!--Navbar End-->
-        <!--Second Part Start-->
-        <div class="h-10 mt-3 flex justify-between">
-            <div class="w-[85%] bg-gray-200 rounded-xl pl-3">
-                <i class="fa-solid fa-magnifying-glass text-gray-400"></i>
-                <input class="h-full w-70 outline-none" type="search" placeholder="Search..">
-            </div>
-            <div class="w-12 bg-gray-200 rounded-xl text-center pt-2">
-                <i class="fa-solid fa-sliders"></i>
-            </div>
-        </div>
-        <!--Second Part End-->
-        <!--Third Part Start-->
-        <div class="flex mt-4 justify-between">
+        </div><!--Nav bar End-->
+        <div class="flex pt-28 justify-between px-2">
             <div class="text-xl font-medium">Categories</div>
             <div class="text-gray-400">See All</div>
         </div>
-        <!--Third Part End-->
-        <!--Forth Part Start-->
-        <div class="scrollbar overflow flex h-14 text-center overflow-x-auto mt-4 cursor-pointer">
-            <div class="min-w-24 rounded-xl pt-1.5 text-white bg-orange-500 mr-2">All</div>
-            <div class="min-w-24 rounded-xl pt-1.5 bg-gray-200 mr-2">Men</div>
-            <div class="min-w-24 rounded-xl pt-1.5 bg-gray-200 mr-2">Women</div>
-            <div class="min-w-24 rounded-xl pt-1.5 bg-gray-200 mr-2">Girls</div>
-            <div class="min-w-24 rounded-xl pt-1.5 bg-gray-200 mr-2">Mobiles</div>
-            <div class="min-w-24 rounded-xl pt-1.5 bg-gray-200 mr-2">Electronics</div>
-            <div class="min-w-24 rounded-xl pt-1.5 bg-gray-200">Appliances</div>
-        </div>
-        <!--Forth Part End-->
-        <!--Fifth Part Start-->
-        <div class="h-48 bg-orange-500 mt-1 rounded-2xl">
+        <div class="px-2">
+            <div class="scrollbar overflow flex h-14 justify-between text-center overflow-x-auto mt-4 cursor-pointer">
+                <div class="min-w-24 rounded-xl pt-1.5 text-white bg-orange-500 mr-2">All</div>
+                <div class="min-w-24 rounded-xl pt-1.5 bg-gray-200 mr-2 hover:bg-lime-400">Men</div>
+                <div class="min-w-24 rounded-xl pt-1.5 bg-gray-200 mr-2 hover:bg-lime-400">Women</div>
+                <div class="min-w-24 rounded-xl pt-1.5 bg-gray-200 mr-2 hover:bg-lime-400">Girls</div>
+                <div class="min-w-24 rounded-xl pt-1.5 bg-gray-200 mr-2 hover:bg-lime-400">Mobiles</div>
+                <div class="min-w-24 rounded-xl pt-1.5 bg-gray-200 mr-2 hover:bg-lime-400">Electronics</div>
+                <div class="min-w-24 rounded-xl pt-1.5 bg-gray-200 hover:bg-lime-400">Appliances</div>
+            </div>
+            <div class="h-48 bg-orange-500 mt-1 rounded-2xl">
 
-        </div>
-        <div class="flex justify-between mt-3">
-            <div class="font-bold text-xl">Popular Product</div>
-            <div class="text-gray-400"> See All</div>
-        </div>
-        <div class="flex flex-wrap justify-between mt-3 gap-y-4">
-            <div class="h-60 w-[47%] bg-gray-300 rounded-xl gap-y-4">
-                <div class="h-[94%] w-[94%] bg-[url(Assets/images/p.jpg)] bg-cover rounded-xl mx-auto my-1.5">
-                    <div class="h-8 w-8 rounded-b-xl bg-gray-300 ml-[84%] text-center">
-                        <i class="fa-regular fa-heart text-xl"></i>
+            </div>
+            <div class="flex justify-between mt-3">
+                <div class="font-bold text-xl">Popular Product</div>
+                <div class="text-gray-400"> See All</div>
+            </div>
+            <div class="flex flex-wrap justify-between mt-3 gap-y-4">
+                <div class="h-60 w-48 bg-gray-300 rounded-xl gap-y-4">
+                    <div class="h-[94%] w-[94%] bg-[url(Assets/images/p.jpg)] bg-cover rounded-xl mx-auto my-1.5">
+                        <div class="h-8 w-8 rounded-b-xl bg-gray-300 ml-[84%] text-center">
+                            <i class="fa-regular fa-heart text-xl"></i>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="h-60 w-[47%] bg-gray-300 rounded-xl gap-y-4">
-                <div class="h-[94%] w-[94%] bg-[url(Assets/images/Picture1.png)] bg-cover rounded-xl mx-auto my-1.5">
-                    <div class="h-8 w-8 rounded-b-xl bg-gray-300 ml-[84%] text-center">
-                        <i class="fa-regular fa-heart text-xl"></i>
-                    </div>
-                    <div></div>
-                </div>
-            </div>
-            <div class="h-60 w-[47%] bg-gray-300 rounded-xl gap-y-4">
-                <div class="h-[94%] w-[94%] bg-[url(Assets/images/Picture2.png)] bg-cover rounded-xl mx-auto my-1.5">
-                    <div class="h-8 w-8 rounded-b-xl bg-gray-300 ml-[84%] text-center">
-                        <i class="fa-regular fa-heart text-xl"></i>
-                    </div>
-                    <div></div>
-                </div>
-            </div>
-            <div class="h-60 w-[47%] bg-gray-300 rounded-xl gap-y-4">
-                <div class="h-[94%] w-[94%] bg-[url(Assets/images/Picture3.png)] bg-cover rounded-xl mx-auto my-1.5">
-                    <div class="h-8 w-8 rounded-b-xl bg-gray-300 ml-[84%] text-center">
-                        <i class="fa-regular fa-heart text-xl"></i>
-                    </div>
-
-                </div>
-            </div>
-            <div class="h-60 w-[47%] bg-gray-300 rounded-xl gap-y-4">
-                <div class="h-[94%] w-[94%] bg-[url(Assets/images/Picture4.png)] bg-cover rounded-xl mx-auto my-1.5">
-                    <div class="h-8 w-8 rounded-b-xl bg-gray-300 ml-[84%] text-center">
-                        <i class="fa-regular fa-heart text-xl"></i>
-                    </div>
-
-                </div>
-            </div>
-            <div class="h-60 w-[47%] bg-gray-300 rounded-xl gap-y-4">
-                <div class="h-[94%] w-[94%] bg-[url(Assets/images/Picture5.png)] bg-cover rounded-xl mx-auto my-1.5">
-                    <div class="h-8 w-8 rounded-b-xl bg-gray-300 ml-[84%] text-center">
-                        <i class="fa-regular fa-heart text-xl"></i>
+                <div class="h-60 w-48 bg-gray-300 rounded-xl gap-y-4">
+                    <div class="h-[94%] w-[94%] bg-[url(Assets/images/Picture1.png)] bg-cover rounded-xl mx-auto my-1.5">
+                        <div class="h-8 w-8 rounded-b-xl bg-gray-300 ml-[84%] text-center">
+                            <i class="fa-regular fa-heart text-xl"></i>
+                        </div>
+                        <div></div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="flex bg-lime-500 h-14 mt-3">
-            <div class="text-xl mx-auto">
-                <div class="fa-solid fa-house mr-20"></div>
-                <div class="fa-solid fa-bag-shopping mr-20"></div>
-                <div class="fa-regular fa-heart mr-20"></div>
-                <div class="fa-regular fa-circle-user"></div>
+                <div class="h-60 w-48  bg-gray-300 rounded-xl gap-y-4">
+                    <div class="h-[94%] w-[94%] bg-[url(Assets/images/Picture2.png)] bg-cover rounded-xl mx-auto my-1.5">
+                        <div class="h-8 w-8 rounded-b-xl bg-gray-300 ml-[84%] text-center">
+                            <i class="fa-regular fa-heart text-xl"></i>
+                        </div>
+                        <div></div>
+                    </div>
+                </div>
+                <div class="h-60 w-48 bg-gray-300 rounded-xl gap-y-4">
+                    <div class="h-[94%] w-[94%] bg-[url(Assets/images/Picture3.png)] bg-cover rounded-xl mx-auto my-1.5">
+                        <div class="h-8 w-8 rounded-b-xl bg-gray-300 ml-[84%] text-center">
+                            <i class="fa-regular fa-heart text-xl"></i>
+                        </div>
+    
+                    </div>
+                </div>
+                <div class="h-60 w-48 bg-gray-300 rounded-xl gap-y-4">
+                    <div class="h-[94%] w-[94%] bg-[url(Assets/images/Picture4.png)] bg-cover rounded-xl mx-auto my-1.5">
+                        <div class="h-8 w-8 rounded-b-xl bg-gray-300 ml-[84%] text-center">
+                            <i class="fa-regular fa-heart text-xl"></i>
+                        </div>
+    
+                    </div>
+                </div>
+                <div class="h-60 w-48 bg-gray-300 rounded-xl gap-y-4">
+                    <div class="h-[94%] w-[94%] bg-[url(Assets/images/Picture5.png)] bg-cover rounded-xl mx-auto my-1.5">
+                        <div class="h-8 w-8 rounded-b-xl bg-gray-300 ml-[84%] text-center">
+                            <i class="fa-regular fa-heart text-xl"></i>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
+    </div><!--Main Div End-->
 </body>
 </html>
